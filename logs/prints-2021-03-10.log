@@ -1,0 +1,54 @@
+17:32:34.683 [main] DEBUG resources.baseTest - Clicking on Next button
+17:32:34.933 [main] INFO  resources.baseTest - Clicked on Next button
+17:32:36.933 [main] DEBUG resources.baseTest - Verifing Community as: Marathi
+17:32:36.969 [main] INFO  resources.baseTest - Marathi : community verified
+17:46:24.984 [main] DEBUG resources.baseTest - Hitting the url:https://www.marathishaadi.com/
+17:46:29.404 [main] INFO  resources.baseTest - Landed into the website
+17:46:29.414 [main] DEBUG resources.baseTest - Clicking on Lets Begin Button
+17:46:29.752 [main] INFO  resources.baseTest - Clicked on Lets Begin button
+17:46:31.754 [main] DEBUG resources.baseTest - Sending keys on EmailId field
+17:46:31.977 [main] INFO  resources.baseTest - EmailID provided
+17:46:31.977 [main] DEBUG resources.baseTest - Sending keys on Password field
+17:46:32.338 [main] INFO  resources.baseTest - Password provided
+17:46:32.338 [main] DEBUG resources.baseTest - Clicking on Create Profile dropdown
+17:46:32.674 [main] INFO  resources.baseTest - Clicked on Create Profile dropdown
+17:46:36.222 [main] DEBUG resources.baseTest - Hitting the url:https://www.marathishaadi.com/
+17:46:40.634 [main] INFO  resources.baseTest - Landed into the website
+17:46:40.634 [main] DEBUG resources.baseTest - Clicking on Lets Begin Button
+17:46:40.774 [main] INFO  resources.baseTest - Clicked on Lets Begin button
+17:46:42.775 [main] DEBUG resources.baseTest - Sending keys on EmailId field
+17:46:43.023 [main] INFO  resources.baseTest - EmailID provided
+17:46:43.024 [main] DEBUG resources.baseTest - Sending keys on Password field
+17:46:43.528 [main] INFO  resources.baseTest - Password provided
+17:46:43.528 [main] DEBUG resources.baseTest - Clicking on Create Profile dropdown
+17:46:43.639 [main] INFO  resources.baseTest - Clicked on Create Profile dropdown
+17:46:46.959 [main] DEBUG resources.baseTest - Hitting the url:https://www.marathishaadi.com/
+17:46:50.820 [main] INFO  resources.baseTest - Landed into the website
+17:46:50.821 [main] DEBUG resources.baseTest - Clicking on Lets Begin Button
+17:46:50.950 [main] INFO  resources.baseTest - Clicked on Lets Begin button
+17:46:52.951 [main] DEBUG resources.baseTest - Sending keys on EmailId field
+17:46:53.252 [main] INFO  resources.baseTest - EmailID provided
+17:46:53.253 [main] DEBUG resources.baseTest - Sending keys on Password field
+17:46:53.425 [main] INFO  resources.baseTest - Password provided
+17:46:53.425 [main] DEBUG resources.baseTest - Clicking on Create Profile dropdown
+17:46:53.491 [main] INFO  resources.baseTest - Clicked on Create Profile dropdown
+17:46:53.491 [main] DEBUG resources.baseTest - Selecting Profile: Self
+17:46:53.624 [main] INFO  resources.baseTest - Profile Selected as: Self
+17:46:53.624 [main] DEBUG resources.baseTest - Clicking on Gender Male Radio button
+17:46:53.726 [main] INFO  resources.baseTest - Clicked on Gender Male Radio button
+17:46:54.727 [main] DEBUG resources.baseTest - Clicking on Next button
+17:46:54.892 [main] INFO  resources.baseTest - Clicked on Next button
+17:46:56.893 [main] DEBUG resources.baseTest - Verifing Community as: Marathi
+17:46:56.992 [main] INFO  resources.baseTest - Marathi : community verified
+17:47:00.497 [main] DEBUG resources.baseTest - Hitting the url:https://www.marathishaadi.com/
+17:47:05.258 [main] INFO  resources.baseTest - Landed into the website
+17:47:05.258 [main] DEBUG resources.baseTest - Clicking on Lets Begin Button
+17:47:05.450 [main] INFO  resources.baseTest - Clicked on Lets Begin button
+17:47:07.451 [main] DEBUG resources.baseTest - Sending keys on EmailId field
+17:47:07.788 [main] INFO  resources.baseTest - EmailID provided
+17:47:07.789 [main] DEBUG resources.baseTest - Sending keys on Password field
+17:47:08.359 [main] INFO  resources.baseTest - Password provided
+17:47:08.359 [main] DEBUG resources.baseTest - Clicking on Create Profile dropdown
+17:47:08.471 [main] INFO  resources.baseTest - Clicked on Create Profile dropdown
+17:47:08.471 [main] DEBUG resources.baseTest - Selecting Profile: Friend
+17:47:08.792 [main] INFO  resources.baseTest - Profile Selected as: Friend

@@ -1,0 +1,6 @@
+17:47:08.792 [main] DEBUG resources.baseTest - Clicking on Gender Male Radio button
+17:47:08.974 [main] INFO  resources.baseTest - Clicked on Gender Male Radio button
+17:47:09.975 [main] DEBUG resources.baseTest - Clicking on Next button
+17:47:10.168 [main] INFO  resources.baseTest - Clicked on Next button
+17:47:12.169 [main] DEBUG resources.baseTest - Verifing Community as: Marathi
+17:47:12.420 [main] INFO  resources.baseTest - Marathi : community verified

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55112" started-at="2021-03-10T12:16:18Z" finished-at="2021-03-10T12:17:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55112" started-at="2021-03-10T12:16:18Z" finished-at="2021-03-10T12:17:13Z">
+      <class name="testcases.Test_Shaadi">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testcases.Test_Shaadi@7d20d0b]" name="initialize" is-config="true" duration-ms="6189" started-at="2021-03-10T12:16:18Z" finished-at="2021-03-10T12:16:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="createGujratiProfile(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Test_Shaadi@7d20d0b]" name="createGujratiProfile" duration-ms="7704" started-at="2021-03-10T12:16:24Z" data-provider="details" finished-at="2021-03-10T12:16:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcxyz489@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qvsuvw@134123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Self]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at testcases.Test_Shaadi.createGujratiProfile(Test_Shaadi.java:112)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createGujratiProfile -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:testcases.Test_Shaadi@7d20d0b]" name="terminate" is-config="true" duration-ms="607" started-at="2021-03-10T12:16:32Z" finished-at="2021-03-10T12:16:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testcases.Test_Shaadi@7d20d0b]" name="initialize" is-config="true" duration-ms="2926" started-at="2021-03-10T12:16:33Z" finished-at="2021-03-10T12:16:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="createGujratiProfile(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Test_Shaadi@7d20d0b]" name="createGujratiProfile" duration-ms="7420" started-at="2021-03-10T12:16:36Z" data-provider="details" finished-at="2021-03-10T12:16:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lmnxyz489@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ecbnfwjk@413w3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Friend]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at testcases.Test_Shaadi.createGujratiProfile(Test_Shaadi.java:112)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createGujratiProfile -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:testcases.Test_Shaadi@7d20d0b]" name="terminate" is-config="true" duration-ms="359" started-at="2021-03-10T12:16:43Z" finished-at="2021-03-10T12:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testcases.Test_Shaadi@7d20d0b]" name="initialize" is-config="true" duration-ms="2952" started-at="2021-03-10T12:16:44Z" finished-at="2021-03-10T12:16:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="createMarathiProfile(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Test_Shaadi@7d20d0b]" name="createMarathiProfile" duration-ms="10037" started-at="2021-03-10T12:16:46Z" data-provider="details" finished-at="2021-03-10T12:16:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcxyz489@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qvsuvw@134123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Self]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMarathiProfile -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:testcases.Test_Shaadi@7d20d0b]" name="terminate" is-config="true" duration-ms="269" started-at="2021-03-10T12:16:56Z" finished-at="2021-03-10T12:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testcases.Test_Shaadi@7d20d0b]" name="initialize" is-config="true" duration-ms="3231" started-at="2021-03-10T12:16:57Z" finished-at="2021-03-10T12:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="createMarathiProfile(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Test_Shaadi@7d20d0b]" name="createMarathiProfile" duration-ms="11926" started-at="2021-03-10T12:17:00Z" data-provider="details" finished-at="2021-03-10T12:17:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lmnxyz489@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ecbnfwjk@413w3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Friend]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMarathiProfile -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:testcases.Test_Shaadi@7d20d0b]" name="terminate" is-config="true" duration-ms="1428" started-at="2021-03-10T12:17:12Z" finished-at="2021-03-10T12:17:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- testcases.Test_Shaadi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
